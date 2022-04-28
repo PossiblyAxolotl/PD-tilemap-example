@@ -13,7 +13,7 @@ for i = 1, #world.tiles, 1 do
     local tile = world.tiles[i] -- get the tile from the table
 
     if tile.x > width then width = tile.x end -- if a tile goes out further than the width, make the width how far out the tile is
-    if tile.y > height then height = tile.x end -- same but vertical
+    if tile.y > height then height = tile.y end -- same but vertical
 end
 
 tilemap:setSize(width, height) -- set size to width and height
