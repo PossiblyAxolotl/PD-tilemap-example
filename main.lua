@@ -25,7 +25,7 @@ for i = 1, #world.tiles, 1 do
     -- the tile number is the position of the tile on the tileset image. left to right, top to bottom is the order
 end
 
--- I originally had those as 1 loop but it didn't wanna work like that
+-- I originally had those as 1 loop but it didn't wanna work like that :(
 
 -- run every frame
 function playdate.update()
